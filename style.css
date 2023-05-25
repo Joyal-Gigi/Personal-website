@@ -1,0 +1,85 @@
+body{
+    background-color:#f0eee9;
+}
+.profile-img{
+    padding: 1px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.navbar{
+    background-color: #cdcccb;
+    padding-left: 5%;
+}
+.home{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container.about-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr;
+    height: 100vh;
+    max-height: 100vh;
+    grid-auto-rows: 200px;
+}
+.about-me > .head{
+    grid-column: span 2;
+    text-align: center;
+    margin: 5%;
+}
+
+.about-me > .know-me{
+    grid-column: span 2;
+    text-align: center;
+    margin: 5%;
+}
+.about-me > .skills{
+    grid-column: span 2;
+    text-align: center;
+    margin: 5%;
+    margin-bottom: 10%;
+    margin-top: 0%;
+}
+h2{
+    font-size: 4rem;
+    font-family: 'Noto Sans Display', sans-serif; 
+    text-align: center;
+
+    text-decoration: underline;
+}
+h3{
+    font-size: 2.5rem;
+    font-family: 'Public Sans', sans-serif;
+
+}
+p{
+    font-size: 1.25rem;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: lighter;
+    color: #858482;
+}
+.project{
+    margin-top: 5%;
+    background-color: #b7b7b7;
+}
+.project > .head{
+    margin: 5%;
+}
+
+.contact-me{
+    height: 100vh;
+    margin-top: 5%;
+    padding: 5%;
+    text-align: left;
+
+}
+.project{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 5%;
+    background-color: #f0eee9;
+    padding-bottom: 15%;
+}
